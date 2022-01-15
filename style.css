@@ -1,0 +1,828 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul , ol{
+    list-style: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* section-1 */
+
+
+
+.header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30px ;
+}
+
+.food-icon{
+    width: 44px;
+    height: 43px;
+}
+
+.food-list{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 20px;
+}
+
+.food-item{
+    margin: 0 18px;
+}
+
+.food-link{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #150C01;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+
+
+.food-button-link{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #DC780B;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: 455px;
+    padding: 10px 30px;
+}
+
+
+
+.healthcare{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.healthcare-left{
+    width: 50%;
+    margin-top: 100px;
+}
+
+.healthcare-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.healthcare-item{
+    margin: 20px 0;
+}
+
+
+.healthcare-title{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.83px;
+    line-height: 58px;
+    color: #150C01;
+}
+
+.healthcare-info{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.healthcare-itemn{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.healthcare-right{
+    width: 50%;
+}
+
+.healthcare-imges{
+    width: 801px;
+    height: 670px;
+}
+
+.healthcare-link1{
+    background: #DC780B;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.healthcare-link2{
+    background: #E5E5E5;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+.healthcare-link2:hover{
+    box-shadow: 1px 1px 20px  rgb(214, 141, 4);
+}
+
+.healthcare-imges{
+    background-image: url(./img/CSmJnTefxM\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right 88px bottom 35px;
+}
+
+/* section-2 */
+
+.section-2{
+    margin: 100px 0;
+}
+
+.Features-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Features-link:hover{
+    text-decoration: underline;
+}
+
+.CHFeatures-icon{
+    width: 10px;
+    height: 10px;
+}
+
+
+.Feature-info{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #150C01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.Features-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Features-item{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CHFeatures-icon{
+    width: 88px;
+    height: 88px;
+}
+
+.Features-titel{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+    margin: 20px 0;
+}
+
+.Features-info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #150C01;
+}
+
+/* section-3 */
+
+.section-3{
+    background-image: url(./img/Vector\ 3.png);
+    background-repeat: no-repeat;
+    margin: 50px 0;
+}
+
+.providers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.providers-right{
+    width: 50%;
+}
+
+.providers-img{
+    width: 487px;
+    height: 450px;
+    border-radius: 40px;
+}
+
+.providers-left{
+    width: 45%;
+    margin-left: 20px;
+}
+
+.providers-item{
+    margin: 20px 0;
+}
+
+.providers-link{
+    text-decoration: none;
+    color: #DC780B;
+    opacity: 0.7;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.2em;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.providers-link:hover{
+   text-decoration: underline;
+}
+
+.providers-title{
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+}
+
+.providers-info{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity:0.7;
+    margin: 20px 0;
+}
+
+.providers-linkk{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #DC780B;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+/* section-4 */
+
+.Food-Full-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+.Food-Full-box-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.Food-Full-box-link:hover{
+    text-decoration: underline;
+}
+
+.Food-Full-box-title{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    margin: 20px 0;
+}
+
+.Food-Full-box-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #150C01;
+    opacity: 0.7;
+    width: 748px;
+    height: 64px;
+}
+
+.Food-Full-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Food-Full-item{
+    width: 30%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 75px 10px 10px 10px;
+    margin: 20px 0;
+}
+
+.Food-Full-img{
+    border-radius: 75px 10px 75px 0px;
+}
+
+.mony-food{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.Food-Full-title{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+}
+
+.Food-Full-mony{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #150C01;
+}
+
+.the-food{
+    padding: 0px 20px;
+}
+
+.the-food-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.purchase-box{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.link-botton{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+    border: 1px solid #DC780B;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px 30px;
+    transition: 0.3s;
+}
+
+.link-botton:hover{
+    background-color: #DC780B;
+    color: #FFFFFF;
+}
+
+
+/* section-5 */
+
+.section-5{
+    background: #FBF1E7;
+    position: relative;
+    margin: 180px 0;
+}
+
+.Take-away{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Take-away-left{
+    width: 65%;
+}
+
+.Take-away-list{
+    margin: 100px;
+}
+
+.Take-away-item{
+    margin: 20px 0;
+}
+
+.Take-away-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    transition: 0.3s;
+}
+
+.Take-away-link:hover{
+    text-decoration: underline;
+}
+
+.Take-away-title{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+}
+
+.Take-away-info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.Take-away-itemn{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Take-away-icon2{
+    padding-left: 30px;
+}
+
+.Take-away-img{
+    position: absolute;
+    top: -50px;
+    right: 150px;
+}
+
+
+/* section-6 */
+
+.Testimonial-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.Testimonial-box-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    transition: 0.3s;
+}
+
+.Testimonial-box-link:hover{
+    text-decoration: underline;
+}
+
+.Testimonial-box-title{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding: 15px 0;
+}
+
+.Testimonial-box-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    width: 750px;
+    height: 62px;
+}
+
+.Testimonia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vektor{
+    Width:6px;
+    Height:12px;
+}
+
+.Testimonial-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Testimonial-item{
+    margin: 5px 0;
+}
+
+.Testimonial-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    width: 506px;
+    height: 59px;
+    padding-bottom: 20px;
+}
+
+.Testimonial-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.Testimonial-info{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.button{
+    margin: 0 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* section-7 */
+
+.section-7{
+    background: #FBF1E7;
+}
+
+.CONTACT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.CONTACT-box-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    transition: 0.3s;
+}
+
+.CONTACT-box-link:hover{
+    text-decoration: underline;
+}
+
+.CONTACT-box-title{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #150C01;
+    width: 749px;
+    height: 61px;
+    margin-top: 20px;
+}
+
+.form{
+    width: 750px;
+    height: 75px;
+    left: 345px;
+    top: 4877px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.input{
+    width: 600px;
+    height: 75px;
+    outline: none;
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 41px;
+    align-items: center;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.CONTACT-button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 41px;
+    align-items: center;
+    text-align: center;
+    width: 145px;
+    height: 75px;
+    left: 939px;
+    top: 4877px;
+    background: #DC780B;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+/* .section-8 */
+
+.footer{
+    padding: 50px 0;
+    background: #252525;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item , .footer-item-first{
+    width: 25%;
+    margin: 0 20px;
+}
+
+.footer-link-logo{
+    width: 61px;
+    height: 60px;
+}
+
+.footer-main-item{
+    padding: 10px 0;
+}
+
+.footer-main-link{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-title{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-link{
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.footer-item-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-item-item{
+    padding-right: 10px;
+}
